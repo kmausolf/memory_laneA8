@@ -1,0 +1,32 @@
+
+.nav a{
+  color: #7c645b;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 14px 10px;
+  font-family: 'Courgette', sans-serif;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav img{
+  width: 28px;
+  height: 28px;
+  border: 0;
+}
+
+body{
+  padding-top: 75px;
+}
+
+.thumbnail img{
+  max-height: 30%;
+  max-width: 30%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

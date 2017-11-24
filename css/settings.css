@@ -1,0 +1,56 @@
+.nav #back_button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 5vw;
+  z-index: 1;
+}
+
+.nav .text-center {
+  color: #7c645b;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Courgette', sans-serif;
+  position: relative;
+  margin-top: 5px;
+  left: -25px;
+}
+
+.jumbotron {
+  background-image:url('');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+}
+
+.settings {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px
+}
+
+body {
+  padding-top: 75px;
+}

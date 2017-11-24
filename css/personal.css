@@ -1,0 +1,96 @@
+/********** nav bar **********/
+
+.nav a{
+  color: #7c645b;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 14px 10px;
+  font-family: 'Courgette', sans-serif;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav img{
+  width: 5vw;
+  height: 5vw;
+  border: 0;
+}
+
+/********** body & jumbotron **********/
+
+body{
+  padding-top: 70px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.jumbotron{
+  background-image:url('');
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container{
+  position: relative;
+  top: 100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+}
+
+
+/********** section content **********/
+
+
+.content_box {
+  width:19%;
+  height: 17vw;
+  float:left;
+  margin-right: 1vw;
+}
+
+.content_thumbnail {
+  height:100%;
+  width:100%;
+  object-fit:fill;
+  border-radius: 15%;
+}
+.refresh_thumbnail {
+  height:100%;
+  width:100%;
+  object-fit:fill;
+  border-radius: 50%;
+  float:right;
+  position:relative;
+  top: 3vw;
+  right: 1.75vw;
+}
+
+/***** embedded youtube video *****/
+
+.yt_vid {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
