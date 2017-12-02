@@ -22,12 +22,14 @@
       if (year[0][place] < 9 && year[0]['thousands'] < 2 ) {
         year[0][place] += 1;
       }//end if
+      /*
       else if (place == 'thousands') {
         year[0][place] = 1;
       }//end else if
       else {
         year[0][place] = 0;
       }//end else
+      */
 
     };//end increaseCount
 
@@ -35,9 +37,11 @@
       if( year[0][place] > 0 ){
         year[0][place] -= 1;
       }//end if
+      /*
       else {
         year[0][place] = 9;
       }//end else
+      */
     };//end decreaseCount
 
     this.getValByPlace = function(place) {
